@@ -8,7 +8,7 @@ import Airdrop from './Airdrop';
 
 function App() {
   return (
-    <ConnectionProvider endpoint="https://api.devnet.solana.com">
+    <ConnectionProvider endpoint="https://solana-devnet.g.alchemy.com/v2/jEQmlgdWPIOypiR9RR6vK">
       <WalletProvider wallets={[]} autoConnect>
         <WalletModalProvider>
           <WalletMultiButton></WalletMultiButton>
@@ -73,3 +73,8 @@ export default App;
 // }
 
 // export default App;
+
+
+//sol balance, good ui, sign messages, airdrop, send sol, send tokens, swap tokens, stake sol, nft minting, display nfts
+
+//pump is a dapp, muzz.100xdevs
